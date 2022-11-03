@@ -1,0 +1,381 @@
+/* основной цвет текста #212121 */
+
+/* цвет 2 для серого #757575 */
+
+/* цвет для веб #2196F3 */
+
+/* цвет снизу ссылок gba(255, 255, 255, 0.6); */
+
+/* вторичный бекграунд  #F5F4FA*/ 
+
+html{
+box-sizing: border-box;
+}
+
+*,*::before,*::after{
+box-sizing: inherit;
+}
+
+.container{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+:root{
+    --main-text-color: #212121;
+    --text-color-second: #757575;
+    
+    }
+    
+    body{
+    background-color: #FFFFFF;
+    color: var(--main-text-color);
+    font-family: Roboto,sans-serif;
+    }
+    
+    .line{
+    text-decoration: none;
+    }
+    
+    .link{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14px;
+        letter-spacing: 0.02em;
+    }
+    
+    
+    
+    .studio{
+        
+        font-size: 26px;
+        line-height: 1.19;
+       
+    }
+    
+    .studiotwo{
+        
+        font-size: 26px;
+        line-height: 1.19;
+    }
+    
+    .list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+
+    
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+    color: var(--main-text-color);
+    margin: 0;
+    }
+
+    h1{
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul{
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    
+    
+    .studio{
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #2196F3;
+    
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    }
+    
+    .studiotwo{
+        font-family: 'Raleway';
+        font-style: normal;
+    color: #2196F3;
+    
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    }
+    
+    .span-color{
+    color: #212121;
+    }
+    
+    .span-color-two{
+    color: #FFFFFF;
+    }
+    
+    /* site nav and info */
+    
+    .site-nav a{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: var(--main-text-color);  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+    }
+    
+    
+    
+    .meil a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color-second);
+    margin-bottom: 9px;
+    }
+    .telefon a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--text-color-second);
+    }
+    
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+    color: #2196F3;
+    }
+    
+    .site-nav .link.current{
+    color: #2196F3;
+    }
+    
+    .meilstyle:hover,
+    .meilstyle:focus {
+    color: #2196F3;
+    }
+    
+    .telefonstyle:hover,
+    .telefonstyle:focus {
+    color: #2196F3;
+    }
+    
+    .links{
+        
+        
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    }
+    
+    .current-now{
+    color: #FFFFFF;
+    background-color: #2196F3;
+        
+        
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    }
+    
+    
+    
+    /* Hero */
+    .hero{
+        padding-top: 25px;
+        text-align: center;
+    background-color: #2F303A;
+    }
+    .hero-title{
+        padding-bottom: 40px;
+        padding-top: 0;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+    }
+    
+    .hero.button{
+    border-radius: 4px;
+    padding: 11px 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: inherit;
+    
+    font-size: 16px;
+    line-height: 1.87;
+    }
+    
+    /* Main page */
+    
+    .hiden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    }
+    
+    .features p{
+    color: var(--text-color-second);
+    }
+    
+
+    .features-title{
+    
+    padding-top: 94px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--main-text-color);
+    }
+    
+    .features-text{
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color-second);
+    }
+    
+    .work-title{
+    padding-top: 94px;
+    padding-bottom: 50px;    
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text-color);
+    }
+    
+    .team{
+    background-color: #F5F4FA;
+    }
+    
+    .team-title{
+       padding-top: 188px;
+       padding-bottom: 50px;
+        
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-text-color);
+    }
+    
+    .comand p{
+    color: var(--text-color-second);
+    }
+    
+    .comand-title{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-text-color);
+    }
+    
+    .comand-text{
+        padding-bottom: 94px;
+       
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--text-color-second);
+    }
+    
+    
+    /*Portfolio css */
+    
+    /*buttons*/
+    .buttons .links:hover,
+    .buttons .links:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    }
+
+    .buttons{
+    padding-top: 94px;
+    padding-bottom: 50px;
+    }
+    
+    .size{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+    }
+    
+    .images-title{
+        margin-top: 20px;
+        margin-bottom: 4px;
+        
+        font-size: 18px;
+        line-height: 2;
+         letter-spacing: 0.06em;
+        color: var(--main-text-color);
+    }
+    
+    .images-text{
+        
+       
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+        color: var(--text-color-second);
+    }
+    
+    
+    
+    /*footer для портфолио и индекс*/
+    .adress a{
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-bottom: 9px;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+    
+    .side-color{
+    background-color: #2F303A;
+    }
+    
+    .images p{
+    color: var(--text-color-second);
+    }
+    .images h3{
+    color: var(--main-text-color);
+    }
+    
