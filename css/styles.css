@@ -128,6 +128,17 @@ outline: 2px solid tomato;
     }
     
     /* site nav and info */
+
+    .site-nav{
+    margin-left: 93px;
+    display: flex;
+    }
+
+   
+
+    .site-nav .item:not(:last-child){
+        margin-right: 40px;
+    }
     
     .site-nav a{
     font-family: 'Roboto';
@@ -138,8 +149,44 @@ outline: 2px solid tomato;
     line-height: 1.14;
     letter-spacing: 0.02em;  
     }
+
+    .site-nav .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    }
     
+    .info{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto;
+    display: flex;
+    }
     
+    .meil{
+        margin-right: 50px;
+    }
+
+    .main-nav{
+    display: flex;
+    align-items: center;
+    }
+
+    .line-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .button-item:not(last-child){
+    margin-right: 8px;
+    }
+
+    .buttons-all{
+    background-color: #F5F4FA;
+    }
+
+
     
     .meil a{
     font-family: 'Roboto';
@@ -160,6 +207,11 @@ outline: 2px solid tomato;
         color: var(--text-color-second);
     }
     
+    .site-nav-two .link:hover,
+    .site-nav-two .link:focus {
+    color: #2196F3;
+    }
+
     .site-nav .link:hover,
     .site-nav .link:focus {
     color: #2196F3;
@@ -244,6 +296,9 @@ outline: 2px solid tomato;
     color: var(--text-color-second);
     }
     
+    .features{
+        display: flex;
+    }
 
     .features-title{
     
@@ -265,6 +320,29 @@ outline: 2px solid tomato;
     letter-spacing: 0.03em;
     color: var(--text-color-second);
     }
+
+    .pictures-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .pictures-item{
+    margin-right: 30px;
+    }
+
+    .comand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comand-item{
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    }
+
+    
     
     .work-title{
     padding-top: 94px;
@@ -351,6 +429,8 @@ outline: 2px solid tomato;
         color: var(--main-text-color);
     }
     
+     
+
     .images-text{
         
        
