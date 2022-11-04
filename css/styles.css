@@ -179,7 +179,7 @@ outline: 2px solid tomato;
     }
 
     .button-item:not(last-child){
-    margin-right: 8px;
+    margin-right: 30px;
     }
 
     .buttons-all{
