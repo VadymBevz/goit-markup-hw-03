@@ -365,10 +365,10 @@ margin-right: auto;
 
     .work{
     padding-bottom: 94px;
+    padding-top: 94px;
     }
     
     .work-title{
-    padding-top: 94px;
     padding-bottom: 50px;    
     font-size: 36px;
     line-height: 1.16;
@@ -441,10 +441,14 @@ margin-right: auto;
     }
 
     .buttons{
-    margin-top: 94px;
+    
     margin-bottom: 50px;
     }
     
+    .buttons-all{
+    padding-top: 94px;
+    }
+
     .button-one{
     padding-top: 6px;
     padding-bottom: 6px;
@@ -509,7 +513,7 @@ margin-right: auto;
     }
     
      .main-flex{
-        
+        padding-bottom: 94px;
         background-color: #FFFFFF;
      
     display: flex;
@@ -524,6 +528,7 @@ margin-right: auto;
      width: 370px;
      margin-right: 30px;
      margin-bottom: 30px;
+     
      }
 
      .second-flex p{
@@ -579,6 +584,8 @@ margin-right: auto;
     padding-top: 60px;
     padding-bottom: 20px;
     }
+
+    
 
     .adress{
     margin-top: 20px;
