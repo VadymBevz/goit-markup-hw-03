@@ -27,9 +27,7 @@ margin-right: auto;
 
 
 
-header{
-border-bottom: 1px solid #757575;
-}
+
 
 :root{
     --main-text-color: #212121;
@@ -108,7 +106,7 @@ border-bottom: 1px solid #757575;
     
     
     header{
-    border-bottom: #757575;
+    border-bottom: 1px solid #ECECEC;
     }
     
     .studio{
