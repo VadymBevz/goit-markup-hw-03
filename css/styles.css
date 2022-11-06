@@ -26,6 +26,11 @@ margin-right: auto;
 }
 
 
+
+header{
+border-bottom: 1px solid #757575;
+}
+
 :root{
     --main-text-color: #212121;
     --text-color-second: #757575;
@@ -102,7 +107,9 @@ margin-right: auto;
     }
     
     
-    
+    header{
+    border-bottom: #757575;
+    }
     
     .studio{
     font-family: 'Raleway';
@@ -309,9 +316,13 @@ margin-right: auto;
         display: flex;
     }
 
+    .features-padding{
+    padding-top: 94px;
+    }
+
     .features-title{
     
-    padding-top: 94px;
+    
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -341,17 +352,22 @@ margin-right: auto;
     }
 
     .comand{
+        
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .comand-item{
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     margin-right: 30px;
     }
 
-    
+    .work{
+    padding-bottom: 94px;
+    }
     
     .work-title{
     padding-top: 94px;
@@ -407,7 +423,7 @@ margin-right: auto;
     }
     
     .comand-text{
-        
+        padding-bottom: 30px;
         
         font-size: 16px;
         line-height: 1.18;
@@ -427,31 +443,51 @@ margin-right: auto;
     }
 
     .buttons{
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-top: 94px;
+    margin-bottom: 50px;
     }
     
     .button-one{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
     min-width: 73px;
     border-radius: 4px;
     }
 
     .button-two{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
     min-width: 125px;
     border-radius: 4px;
     }
 
     .button-three{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
     min-width: 112px;
     border-radius: 4px;
     }
 
     .button-four{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
     min-width: 103px;
     border-radius: 4px;
     }
 
     .button-five{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
     min-width: 130px;
     border-radius: 4px;
     }
@@ -477,7 +513,7 @@ margin-right: auto;
      .main-flex{
         
         background-color: #FFFFFF;
-     margin-bottom: 94px;
+     
     display: flex;
     flex-wrap: wrap;
      }
@@ -543,18 +579,19 @@ margin-right: auto;
 
     .studio-line{
     padding-top: 60px;
+    padding-bottom: 20px;
     }
 
     .adress{
-    padding-top: 20px;
+    margin-top: 20px;
     }
 
     .meil{
-    padding-top: 9px;
+    margin-top: 9px;
     }
 
     .telefon{
-    padding-top: 9px;
+    margin-top: 9px;
     }
     
     .side-color{
